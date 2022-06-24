@@ -293,7 +293,7 @@
             <div class="avatar"><img src="images/reference-image-1.jpg" width="60" height="60"/></div>
             <div class="header-bio m-3 mb-0">
               <h3 class="h6 mb-1" data-aos="fade-left" data-aos-delay="0">Aiyana</h3>
-              <p class="text-muted text-small" data-aos="fade-left" data-aos-delay="100">CEO / Web Design Company</p>
+              <p class="text-muted text-small" data-aos="fade-left" data-aos-delay="100">Lead DevOps Engineer @ Google</p>
             </div>
           </div>
           <div class="d-flex"><i class="text-secondary fas fa-quote-left"></i>
@@ -305,7 +305,7 @@
             <div class="avatar"><img src="images/reference-image-2.jpg" width="60" height="60"/></div>
             <div class="header-bio m-3 mb-0">
               <h3 class="h6 mb-1" data-aos="fade-left" data-aos-delay="0">Alexander</h3>
-              <p class="text-muted text-small" data-aos="fade-left" data-aos-delay="100">Front-end Developer / Web Design Company</p>
+              <p class="text-muted text-small" data-aos="fade-left" data-aos-delay="100">Senior DevOps Engineer @ Amazon </p>
             </div>
           </div>
           <div class="d-flex"><i class="text-secondary fas fa-quote-left"></i>
