@@ -7,9 +7,9 @@
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	
-	<name>My Resume</name>
+	<name>My-Resume</name>
 
-	<description>Maven Web Project for Java Project</description>
+	<description>My Resume Web</description>
 
 	<organization>
 		<name>Landmark Technologies</name>
@@ -89,20 +89,20 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://3.89.183.37:8081/repository/certQart-release/</url>
+	      <name>Resume Releases Nexus Repository</name>
+	      <url>http://3.89.183.37:8081/repository/Resume-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://3.89.183.37:8081/repository/certQart-snapshot/</url>
+	      <name>Resume Snapshot Nexus Repository </name>
+	      <url>http://3.89.183.37:8081/repository/Resume-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
 	
 	<build>
-		<finalName>My Resume</finalName>
+		<finalName>My-Resume</finalName>
 		
 		<plugins>
 			<plugin>
