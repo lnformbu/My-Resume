@@ -14,7 +14,7 @@ How to Edit the template
 
 1. Editing Content in template
 
-To edit the content open the corresponding *.html files and open them
+To edit the content open the corresponding *.home (My-Resume/src/main/webapp/jsps/ ) file and open them
 in an editor such as VSCode or Notepad++.
 Search for the content you want to change and edit it to the text you want.
 Save the file and reopen HTML file in browser to see the changes.
