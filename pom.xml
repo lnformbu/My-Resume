@@ -89,13 +89,13 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>Resume Releases Nexus Repository</name>
+	      <name> Releases Nexus Repository</name>
 	      <url>http://3.89.183.37:8081/repository/Resume-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Resume Snapshot Nexus Repository </name>
+	      <name> Snapshot Nexus Repository </name>
 	      <url>http://3.89.183.37:8081/repository/Resume-snapshot/</url>
 	    </snapshotRepository>
 	    
