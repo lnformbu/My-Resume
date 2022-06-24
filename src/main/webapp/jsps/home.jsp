@@ -253,7 +253,7 @@
     <div class="portfolio-section">
       <h2 class="h2 fw-light mb-4">Portfolio</h2>
       <div class="row g-0">
-        <div class="col-md-6"><a href="https://dribbble.com/" target="_blank"><img class="img-fluid" src="images/project-1.jpg" width="800" height="500"/></a></div>
+        <div class="col-md-6"><a href="https://github.com/lnformbu" target="_blank"><img class="img-fluid" src="images/project-1.jpg" width="800" height="500"/></a></div>
         <div class="col-md-6 d-flex align-items-center" data-aos="fade-left" data-aos-delay="100">
           <div class="m-4 mt-md-2">
             <p class="text-teal text-small">Environment Layout</p>
@@ -270,10 +270,10 @@
             <p class="text-muted">Jenkins integration with Maven, SonarQube, Docker and Docker Swarm .</p>
           </div>
         </div>
-        <div class="col-md-6"><a href="https://www.behance.net/" target="_blank"><img class="img-fluid" src="images/project-2.jpg" width="800" height="500"/></a></div>
+        <div class="col-md-6"><a href="https://github.com/lnformbu" target="_blank"><img class="img-fluid" src="images/project-2.jpg" width="800" height="500"/></a></div>
       </div>
       <div class="row g-0">
-        <div class="col-md-6"><a href="https://dribbble.com/" target="_blank"><img class="img-fluid" src="images/project-3.jpg" width="800" height="500"/></a></div>
+        <div class="col-md-6"><a href="https://github.com/lnformbu" target="_blank"><img class="img-fluid" src="images/project-3.jpg" width="800" height="500"/></a></div>
         <div class="col-md-6 d-flex align-items-center" data-aos="fade-left" data-aos-delay="100">
           <div class="m-4 mt-md-2">
             <p class="text-teal text-small">Environment Layout</p>
