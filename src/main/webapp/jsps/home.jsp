@@ -368,7 +368,7 @@
           </div>
         </div>
         <div class="text-small">
-          <div class="mb-1">&copy; Lenon Nformbui</div>
+          <div class="mb-1">&copy; Lenon Nformbui.</div>
           <div> Contact - <a href="https://www.linkedin.com/in/lenonnformbui/" target="_blank">LinkedIn</a></div>
           <div> Free - Scripts - <a href="https://github.com/lnformbu" target="_blank">Github</a></div>
         </div>
