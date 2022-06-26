@@ -96,7 +96,7 @@
         <div class="col-md-6">
           <h2 class="h2 fw-light mb-4">About Me</h2>
           <p>Hello!, </p>
-                <p> I am Lenon Nformbui, A skilled DevOps Engineer and Data Center  Lead with over 5 years of experience in SDLC and IT Service Delivery & Management.  Did you Know <strong>Thinking outside the box and driving solutions is what motivates me?</strong> I am now transitioning  roles to become a  full time DevOps Engineer.</p>
+                <p> I am Lenon Nformbui, a skilled DevOps Engineer and Data Center  Lead with over 5 years of experience in SDLC and IT Service Delivery & Management.  Did you Know <strong>Thinking outside the box and driving solutions is what motivates me?</strong> I am now transitioning  roles to become a  full time DevOps Engineer.</p>
           <p> I have hands-on experience in the role of <strong> software configuration management, supporting, automating, and optimizing mission-critical deployments, leveraging configuration management, CI/CD, and DevOps processes </strong> over large infrastructures.</p>
                 <p>It would be an honor and privilege to serve as a <strong> Senior DevOps Engineer for any prominent organization with a vision to providing solutions </strong> to the most critical real-world problems and infrastructures.</p>
         </div>
