@@ -12,7 +12,7 @@ LICENSE-*.txt     - License file as per your downloaded variant.
 How to Edit the template
 ------------------------
 
-1. Editing Content in template
+1. Editing Content in template i svery easy
 
 To edit the content open the corresponding *.home (My-Resume/src/main/webapp/jsps/ ) file and open them
 in an editor such as VSCode or Notepad++.
