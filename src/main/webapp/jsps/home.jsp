@@ -31,7 +31,7 @@
     <header class="d-print-none">
       <div class="container text-center text-lg-left">
         <div class="pt-4 clearfix">
-          <h1 class="site-title mb-0">Leona Nformbui</h1>
+          <h1 class="site-title mb-0">Lenon Nformbui</h1>
           <div class="site-nav"> 
             <nav role="navigation">
               <ul class="nav justify-content-center">
@@ -66,19 +66,19 @@
             <div class="avatar p-1"><img class="img-thumbnail shadow-2-strong" src="images/avatar.jpg" width="160" height="160"/></div>
             <div class="header-bio mt-3">
               <div data-aos="zoom-in" data-aos-delay="0">
-                <h2 class="h1">Leona Nformbui</h2>
+                <h2 class="h1">Lenon Nformbui</h2>
                 <p>IT Service Delivery Lead Transitioning <----> Senior DevOps Engineer </p>
               </div>
               <div class="header-social mb-3 d-print-none" data-aos="zoom-in" data-aos-delay="200">
                 <nav role="navigation">
                   <ul class="nav justify-content-center">
-                    <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/Leonanformbui/" title="Twitter"><i class="fab fa-twitter"></i><span class="menu-title sr-only">LinkedIn</span></a>
+                    <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/Lenonnformbui/" title="Twitter"><i class="fab fa-twitter"></i><span class="menu-title sr-only">LinkedIn</span></a>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/Leonanformbui/" title="Facebook"><i class="fab fa-facebook"></i><span class="menu-title sr-only">Facebook</span></a>
+                    <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/Lenonnformbui/" title="Facebook"><i class="fab fa-facebook"></i><span class="menu-title sr-only">Facebook</span></a>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/Leonanformbui/" title="Instagram"><i class="fab fa-instagram"></i><span class="menu-title sr-only">Instagram</span></a>
+                    <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/Lenonnformbui/" title="Instagram"><i class="fab fa-instagram"></i><span class="menu-title sr-only">Instagram</span></a>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/Leonanformbui/" title="Github"><i class="fab fa-github"></i><span class="menu-title sr-only">Github</span></a>
+                    <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/Lenonnformbui/" title="Github"><i class="fab fa-github"></i><span class="menu-title sr-only">Github</span></a>
                     </li>
                   </ul>
                 </nav>
@@ -96,7 +96,7 @@
         <div class="col-md-6">
           <h2 class="h2 fw-light mb-4">About Me</h2>
           <p>Hello!, </p>
-                <p> My Name is Leona Marie Nformbui, I am a skilled DevOps Engineer and Data Center  Lead with over 5 years of experience in SDLC and IT Service Delivery & Management.  Did you Know <strong>Thinking outside the box and driving solutions is what motivates me?</strong> I am now transitioning  roles to become a  full time DevOps Engineer.</p>
+                <p> My Name is Lenon Marie Nformbui, I am a skilled DevOps Engineer and Data Center  Lead with over 5 years of experience in SDLC and IT Service Delivery & Management.  Did you Know <strong>Thinking outside the box and driving solutions is what motivates me?</strong> I am now transitioning  roles to become a  full time DevOps Engineer.</p>
           <p> I have hands-on experience in the role of <strong> software configuration management, supporting, automating, and optimizing mission-critical deployments, leveraging configuration management, CI/CD, and DevOps processes </strong> over large infrastructures.</p>
                 <p>It would be an honor and privilege to serve as a <strong> Senior DevOps Engineer for any prominent organization with a vision to providing solutions </strong> to the most critical real-world problems and infrastructures.</p>
         </div>
@@ -113,13 +113,13 @@
               <div class="pb-2 fw-bolder"><i class="far fa-envelope pe-2 text-muted" style="width:24px;opacity:0.85;"></i> Email</div>
             </div>
             <div class="col-sm-7">
-              <div class="pb-2">Leonanformbui@gmail.com</div>
+              <div class="pb-2">Lenonnformbui@gmail.com</div>
             </div>
             <div class="col-sm-5">
               <div class="pb-2 fw-bolder"><i class="fab fa-skype pe-2 text-muted" style="width:24px;opacity:0.85;"></i> Skype</div>
             </div>
             <div class="col-sm-7">
-              <div class="pb-2">Leonanformbui@gmail.com</div>
+              <div class="pb-2">Lenonnformbui@gmail.com</div>
             </div>
             <div class="col-sm-5">
               <div class="pb-2 fw-bolder"><i class="fas fa-phone pe-2 text-muted" style="width:24px;opacity:0.85;"></i> Phone</div>
@@ -297,7 +297,7 @@
             </div>
           </div>
           <div class="d-flex"><i class="text-secondary fas fa-quote-left"></i>
-            <p class="lead mx-2" data-aos="fade-left" data-aos-delay="100">Leona displaysexemplary professionalism and is able to take on challenges. He learns quickly and is an asset to any team.</p>
+            <p class="lead mx-2" data-aos="fade-left" data-aos-delay="100">Lenon displaysexemplary professionalism and is able to take on challenges. He learns quickly and is an asset to any team.</p>
           </div>
         </div>
         <div class="col-md-6">
@@ -309,7 +309,7 @@
             </div>
           </div>
           <div class="d-flex"><i class="text-secondary fas fa-quote-left"></i>
-            <p class="lead mx-2" data-aos="fade-left" data-aos-delay="100">Leona is a great co-worker and problem solver. He is quick to extend his helping hand and makes a good team player.</p>
+            <p class="lead mx-2" data-aos="fade-left" data-aos-delay="100">Lenon is a great co-worker and problem solver. He is quick to extend his helping hand and makes a good team player.</p>
           </div>
         </div>
       </div>
@@ -322,7 +322,7 @@
         <div class="col-md-5" data-aos="fade-left" data-aos-delay="200">
           <div class="mt-1">
             <div class="h6"><i class="fas fa-phone pe-2 text-muted" style="width:24px;opacity:0.85;"></i>+1-240-779-1158</div>
-            <div class="h6"><i class="far fa-envelope pe-2 text-muted" style="width:24px;opacity:0.85;"></i> Leonanformbui@gmail.com</div>
+            <div class="h6"><i class="far fa-envelope pe-2 text-muted" style="width:24px;opacity:0.85;"></i> Lenonnformbui@gmail.com</div>
           </div>
           <div class="mt-5 d-print-none"><form action="https://formspree.io/f/xgedbzaw"
     method="POST">
@@ -351,25 +351,25 @@
     <footer class="pt-4 pb-4 text-muted text-center d-print-none">
       <div class="container">
         <div class="my-3">
-          <div class="h4">Leona Nformbui</div>
+          <div class="h4">Lenon Nformbui</div>
           <div class="footer-nav">
             <nav role="navigation">
               <ul class="nav justify-content-center">
-                <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/Leonanformbui/" title="Twitter"><i class="fab fa-twitter"></i><span class="menu-title sr-only">Twitter</span></a>
+                <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/Lenonnformbui/" title="Twitter"><i class="fab fa-twitter"></i><span class="menu-title sr-only">Twitter</span></a>
                 </li>
-                <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/Leonanformbui/" title="Facebook"><i class="fab fa-facebook"></i><span class="menu-title sr-only">Facebook</span></a>
+                <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/Lenonnformbui/" title="Facebook"><i class="fab fa-facebook"></i><span class="menu-title sr-only">Facebook</span></a>
                 </li>
-                <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/Leonanformbui/" title="Instagram"><i class="fab fa-instagram"></i><span class="menu-title sr-only">Instagram</span></a>
+                <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/Lenonnformbui/" title="Instagram"><i class="fab fa-instagram"></i><span class="menu-title sr-only">Instagram</span></a>
                 </li>
-                <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/Leonanformbui/" title="Github"><i class="fab fa-github"></i><span class="menu-title sr-only">Github</span></a>
+                <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/Lenonnformbui/" title="Github"><i class="fab fa-github"></i><span class="menu-title sr-only">Github</span></a>
                 </li>
               </ul>
             </nav>
           </div>
         </div>
         <div class="text-small">
-          <div class="mb-1">&copy; Leona Nformbui.</div>
-          <div> Contact - <a href="https://www.linkedin.com/in/Leonanformbui/" target="_blank">LinkedIn</a></div>
+          <div class="mb-1">&copy; Lenon Nformbui.</div>
+          <div> Contact - <a href="https://www.linkedin.com/in/Lenonnformbui/" target="_blank">LinkedIn</a></div>
           <div> Free - Scripts - <a href="https://github.com/lnformbu" target="_blank">Github</a></div>
         </div>
       </div>
