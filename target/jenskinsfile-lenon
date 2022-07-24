@@ -1,0 +1,62 @@
+pipeline {
+    agent any
+    tools {
+        maven 'maven3.8.6'
+    }
+    stages {
+        stage ('ClonefromGithub') {
+            steps {
+                checkout([$class: 'GitSCM', branches: [[name: '**']], extensions: [], userRemoteConfigs: [[credentialsId: 'GitHub', url: 'https://github.com/lnformbu/My-Resume.git']]])
+                sh 'echo Private repository was used. Hence, the need for authentication.'
+            }
+        }
+        stage ('Build') {
+            steps {
+                sh 'mvn clean'
+                sh 'mvn install'
+            }
+        }
+        stage ('CodeQualityAnalysis') {
+            steps {
+                sh 'mvn clean'
+                sh 'mvn sonar:sonar'
+            }
+        }
+        stage ('BackupArtifacts') {
+            steps {
+               sh 'mvn clean'
+               sh 'mvn deploy'
+            }
+        }
+        stage ('Authorisation') {
+            steps {
+                timeout(time: 48, unit: 'HOURS') {
+                    // some block
+                    input message: 'Approve or Decline'
+                    }
+            }
+        }
+        stage ('DeploytoAppServer') {
+            steps {
+              deploy adapters: [tomcat9(credentialsId: 'tomcat', path: '', url: 'http://3.89.254.251:8080/')], contextPath: null, war: 'target/*.war'
+            }
+        }
+    }
+    post {
+      success{
+        emailext body: '', presendScript: 'developers@spikepointe.com,info@spikepointe.com',
+                 subject: "Pipeline Build is over .. Build # is ..${env.BUILD_NUMBER} and Build status is.. ${currentBuild.result}.",
+                 body: "Pipeline Build is over .. Build # is ..${env.BUILD_NUMBER} and Build status is.. ${currentBuild.result}.",
+                 replyTo: 'developers@spikepointe.com'
+        }
+        
+        
+        failure{
+        emailext to: 'developers@spikepointe.com,info@spikepointe.com',
+                 subject: "Pipeline Build is over .. Build # is ..${env.BUILD_NUMBER} and Build status is.. ${currentBuild.result}.",
+                 body: "Pipeline Build is over .. Build # is ..${env.BUILD_NUMBER} and Build status is.. ${currentBuild.result}.",
+                 replyTo: 'developers@spikepointe.com'
+        }
+    } 
+
+}
