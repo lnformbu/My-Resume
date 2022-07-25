@@ -50,13 +50,25 @@ pipeline {
                  replyTo: 'developers@spikepointe.com'
         }
         
-        
         failure{
         emailext to: 'developers@spikepointe.com,info@spikepointe.com',
                  subject: "Pipeline Build is over .. Build # is ..${env.BUILD_NUMBER} and Build status is.. ${currentBuild.result}.",
                  body: "Pipeline Build is over .. Build # is ..${env.BUILD_NUMBER} and Build status is.. ${currentBuild.result}.",
                  replyTo: 'developers@spikepointe.com'
         }
-    } 
-
+    }
 }
+
+emailext body: '', presendScript: '''Pipeline Build is over .. Build # is ..${env.BUILD_NUMBER} and Build status is.. ${currentBuild.result}.
+
+''', recipientProviders: [buildUser(), developers()], subject: ''
+
+  
+$PROJECT_NAME"
+"Build Number - $BUILD_NUMBER"
+"Build Result - $BUILD_STATUS"
+"Build Time $BUILD_ID"
+"SVN Revision Number $SVN_REVISION"
+"Changes Made By - $CHANGES"
+"$CAUSE"
+"Please see build log as an attachment.

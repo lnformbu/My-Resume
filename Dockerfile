@@ -1,3 +1,2 @@
-FROM tomcat:8.0.20-jre8
-### Good stuff
-COPY target/*.war /usr/local/tomcat/webapps/maven-web-app.war
+FROM tomcat:9.0.65-jdk8-corretto-al2
+COPY target/*.war /usr/local/tomcat/webapps/My-Resume-website.war
