@@ -1,0 +1,66 @@
+pipeline {
+    agent any
+    tools {
+        maven 'maven3.8.6'
+    }
+    stages {
+        stage ('ClonefromGithub') {
+            steps {
+                checkout([$class: 'GitSCM', branches: [[name: '**']], extensions: [], userRemoteConfigs: [[credentialsId: 'GitHub', url: 'https://github.com/lnformbu/My-Resume.git']]])
+                sh 'echo Private repository was used. Hence, the need for authentication.'
+            }
+        }
+        stage ('Build') {
+            steps {
+                sh 'mvn clean'
+                sh 'mvn install'
+            }
+        }
+        stage ('CodeQualityAnalysis') {
+            steps {
+                sh 'mvn clean'
+                sh 'mvn sonar:sonar'
+            }
+        }
+        stage ('BackupArtifacts') {
+            steps {
+               sh 'mvn clean'
+               sh 'mvn deploy'
+            }
+        }
+        stage ('Authorisation') {
+            steps {
+                timeout(time: 48, unit: 'HOURS') {
+                    // some block
+                    input message: 'Approve or Decline'
+                    }
+            }
+        }
+        stage ('DeploytoAppServer') {
+            steps {
+                deploy adapters: [tomcat9(credentialsId: 'tomcat', path: '', url: 'http://3.89.254.251:8080/')], contextPath: null, war: 'target/*.war'
+            }
+        }
+    }
+    
+post {
+  success {
+    emailext body: 'Please go to ${BUILD_URL} and verify the build',
+    recipientProviders: [developers(), requestor()],
+    subject: 'BUILD SUCCESS',
+    to: 'lenon@spikepointe.com'
+  }
+  failure {
+  emailext body: 'Please go to ${BUILD_URL} MAKE THIS WORK',
+    recipientProviders: [developers(), requestor()],
+    subject: 'ALERT!!ALERT!! BAD BUILD ',
+    to: 'devellopers@spikepointe.com' 
+  }
+
+}
+
+}
+
+
+
+  
